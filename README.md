@@ -1,11 +1,7 @@
 ## A dark minimal theme for phpMyAdmin 4.6.x.x
 
-_**Update**: 2015-03-21 now compatible with latest pma stable release: 4.3.8.1_
-
 ---
-This theme was born simply out of my deepest needs - more precisely the need to not have to stare at the ugly default phpMyAdmin theme all day long (sorry, *guy* who made it). But seriously now, it had to come to this - in a multiple screen setup where Gnome looks awesome, terminal windows look awesome and Sublime Text tops everything, phpMyAdmin just didn't belong.
-
-I guess one could say PMA8165 was somewhat inspired from the [Numix GTK3 theme](http://satya164.deviantart.com/art/Numix-GTK3-theme-360223962) which, in combination with a few more things, can make Gnome look lethal as detailed in one of my fascinating blog posts on [How To: Make Linux Look Sexy In Only 3 Fast Steps](http://howto8165.wordpress.com/2014/08/15/linux-minimalist-desktop/).
+This theme is simply an updated fork from [mjohnson8165/pma8165-theme](https://github.com/mjohnson8165/pma8165-theme) but instead of using `pma8165-theme` as a base, the _official_ `pmahomme` is used as the base. The design and look and feel of `pma8165-theme` was then applied to it.
 
 ## Installation
 
