@@ -3,6 +3,8 @@
 ---
 This theme is simply an updated fork from [mjohnson8165/pma8165-theme](https://github.com/mjohnson8165/pma8165-theme) but instead of using `pma8165-theme` as a base, the _official_ `pmahomme` is used as the base. The design and look and feel of `pma8165-theme` was then applied to it.
 
+Among other things, this versions completes the original work by fixing several issues and providing a full dark theme for the database relation view.
+
 ## Installation
 
 * Go to your themes directory:
@@ -16,9 +18,9 @@ This theme is simply an updated fork from [mjohnson8165/pma8165-theme](https://g
 
 And here are a couple of screenshots of what you'll be getting:
 
-![alt text](https://github.com/mjohnson8165/pma8165-theme/blob/master/screenshot-1.png "PMA8165 Theme - Screenshot #1")
+![alt text](https://github.com/madmath03/pmadarktheme/blob/master/screenshot-1.png "PMA Dark Theme - Screenshot #1")
 
-![alt text](https://github.com/mjohnson8165/pma8165-theme/blob/master/screenshot-2.png "PMA8165 Theme - Screenshot #2")
+![alt text](https://github.com/madmath03/pmadarktheme/blob/master/screenshot-2.png "PMA Dark - Screenshot #2")
 
 ## Disclaimer
 
