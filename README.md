@@ -10,7 +10,7 @@ Among other things, this versions completes the original work by fixing several 
 * Go to your themes directory:
 `cd /usr/share/phpmyadmin/themes`
 
-* Clone the repository: `sudo git clone https://git@github.com/mjohnson8165/pma8165-theme.git pma8165`
+* Clone the repository: `sudo git clone https://git@github.com/madmath03/pmadarktheme.git pma8165`
 
 * Go to your phpMyAdmin page and select the *pma8165* theme
 
