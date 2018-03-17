@@ -10,9 +10,9 @@ Among other things, this versions completes the original work by fixing several 
 * Go to your themes directory:
 `cd /usr/share/phpmyadmin/themes`
 
-* Clone the repository: `sudo git clone https://git@github.com/madmath03/pmadarktheme.git pma8165`
+* Clone the repository: `sudo git clone https://git@github.com/madmath03/pmadarktheme.git pmadarktheme`
 
-* Go to your phpMyAdmin page and select the *pma8165* theme
+* Go to your phpMyAdmin page and select the *pmadarktheme* theme
 
 ## Screenshots
 
@@ -22,14 +22,6 @@ And here are a couple of screenshots of what you'll be getting:
 
 ![alt text](https://github.com/madmath03/pmadarktheme/blob/master/screenshot-2.png "PMA Dark - Screenshot #2")
 
-## Disclaimer
-
-I made this theme for myself and I'm afraid that even at this point, it already satisfies my needs. Therefore, it may contain visual glitches here and there and without any help, I will only fix those when I come across them *and even then* I might not be so easily willing to, I do have a life you know... 
-
-I've originally designed the theme for v4.0.10deb1, then moved on to v4.2.8.1 which eventually got merged back into the master branch. While I also kept the 4.0.X.X branch, the new version has many improvements over it and is *almost* backwards-compatible with older versions. 
-
-But then again, only time will tell whether I'll work on the other branch anytime too soon, or rather just upgrade phpMyAdmin on all my other machines that are using it.
-
 ## Caution
 
-The *img* directory is a mess - most icons in there are not even used and the sprites file was tampered manually, so attempting to run the *generate-sprites* script is entirely unadvisable at the moment, unless you really know what you're doing - I know what I'm doing, I just don't wanna do it *yet*...
+The *img* directory is a mess - most icons in there are not even used and the sprites file was tampered manually, so attempting to run the *generate-sprites* script is entirely unadvisable at the moment, unless you really know what you're doing...
