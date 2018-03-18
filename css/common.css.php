@@ -1531,13 +1531,13 @@ div.tabLinks .icon {
 .popupContent {
     display: none;
     position: absolute;
-    border: 1px solid #CCC;
+    border: 1px solid #1a1a1a;
     margin: 0;
     padding: 3px;
-    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 3px #666;
-    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 3px #666;
-    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 3px #666;
-    background-color: #fff;
+    -moz-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 3px rgba(0,0,0,0.3);
+    box-shadow: <?php echo $GLOBALS['text_dir'] === 'rtl' ? '-' : ''; ?>2px 2px 3px rgba(0,0,0,0.3);
+    background-color: #191919;
     z-index: 2;
 }
 
@@ -1681,6 +1681,34 @@ p.notice a {
     text-decoration: underline;
 }
 
+/* over-riding jqplot colors */
+
+.jqplot-highlighter-tooltip {
+    background-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.jqplot-data-label {
+    color: #555;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.jqplot-series-shadowCanvas {
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.jqplot-table-legend, .jqplot-cursor-legend {
+    color: #333;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+/* server status */
+
+#serverstatusquerieschart .jqplot-series-shadowCanvas {
+    background-color: rgba(0,0,0,0.9);
+}
+
 /* profiling */
 
 div#profilingchart {
@@ -1693,27 +1721,16 @@ div#profilingchart {
     top: auto !important;
     left: 11px;
     bottom:24px;
-    background-color: #ddd;
-    color: #333;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-}
-
-#profilingchart .jqplot-data-label {
-    color: #555;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 }
 
 #profilingchart .jqplot-series-shadowCanvas {
     background-color: #444;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 }
 
 #profilingchart .jqplot-table-legend, #profilingchart .jqplot-cursor-legend {
     margin: 1px;
     padding: 1px;
     background-color: #ddd;
-    color: #333;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     border-radius: 4px;
 }
 
@@ -1748,18 +1765,10 @@ div#profilingchart {
     padding: 10px;
 }
 
-#resizer .jqplot-highlighter-tooltip {
-    background-color: #ddd;
-    color: #333;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-}
-
 #resizer .jqplot-table-legend, #resizer .jqplot-cursor-legend {
     margin: 1px;
     padding: 1px;
     background-color: #ddd;
-    color: #333;
-    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     border-radius: 4px;
 }
 
