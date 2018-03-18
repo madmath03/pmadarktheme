@@ -207,7 +207,7 @@ dfn:hover {
 th {
     font-weight: bold;
     color: <?php echo $GLOBALS['cfg']['ThColor']; ?>;
-    background: #f3f3f3;
+    background: #111111;
     <?php echo $_SESSION['PMA_Theme']->getCssGradient('111111', '222222'); ?>
 }
 
@@ -609,15 +609,18 @@ button.mult_submit {
     background-color: transparent;
 }
 
+table tbody:first-of-type tr th {
+    background: none;
+}
+
 /* odd items 1,3,5,7,... */
-table tbody:first-of-type tr:nth-child(odd),
-table tbody:first-of-type tr:nth-child(odd) th {
-    background: #151515;
+table tbody:first-of-type tr:nth-child(odd) {
+    background: none;
+    background-color: #151515;
 }
 
 /* even items 2,4,6,8,... */
-table tbody:first-of-type tr:nth-child(even),
-table tbody:first-of-type tr:nth-child(even) th {
+table tbody:first-of-type tr:nth-child(even) {
     background: none;
 }
 
