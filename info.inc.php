@@ -8,13 +8,8 @@
  */
 
 /**
- * If you have problems or questions about this theme email
- * mikehomme@users.sourceforge.net
- */
-
-/**
  * Icon set used by this theme: http://famfamfam.com/lab/icons/silk/
  */
 
 $theme_name = 'pmadarktheme';
-$theme_full_version = '0.1';
+$theme_full_version = '4.7';

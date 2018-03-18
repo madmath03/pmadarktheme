@@ -194,7 +194,6 @@ $navLineColor = '#222';
 #pma_navigation_tree li,
 #pma_navigation_tree li.fast_filter {
     white-space: nowrap;
-    padding-bottom: 4px;
     clear: both;
     min-height: 16px;
 }

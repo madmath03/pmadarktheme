@@ -1,4 +1,4 @@
-## A dark minimal theme for phpMyAdmin 4.6.x.x
+## A dark minimal theme for phpMyAdmin 4.7.x.x
 
 ---
 This theme is simply an updated fork from [mjohnson8165/pma8165-theme](https://github.com/mjohnson8165/pma8165-theme) but instead of using `pma8165-theme` as a base, the _official_ `pmahomme` is used as the base. The design and look and feel of `pma8165-theme` was then applied to it.

@@ -309,6 +309,11 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
 }
 .CodeMirror-lint-tooltip {
     z-index: 200;
+    font-family: inherit;
+}
+.CodeMirror-lint-tooltip code {
+  font-family: monospace;
+  font-weight: bold;
 }
 
 
